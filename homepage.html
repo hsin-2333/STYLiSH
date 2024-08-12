@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet" />
+    <title>W2P1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="getAPI.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="navbar">
+      <div class="nav-left">
+        <div class="top-row">
+          <a href="homepage.html">
+            <img class="logo" src="./src/assets/logo.png" alt="E-commerce website Logo" />
+            <button>
+              <img src="./src/assets/search.png" width="40px" height="40px" />
+            </button>
+          </a>
+        </div>
+        <div class="second-row">
+          <ul class="categories">
+            <li><a href="?category=women">女裝</a></li>
+            <li><a href="?category=men">男裝</a></li>
+            <li><a href="?category=accessories">配件</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="input-wrapper">
+          <input id="searchInput" class="search" type="search" placeholder="西裝" />
+          <button><img src="./src/assets/search.png" /></button>
+        </div>
+        <div class="cart-wrapper">
+          <a href="/checkout">
+            <div class="hover-container cart-icon-container">
+              <img class="default-image" src="./src/assets/cart.png" alt="cart-mobile" />
+              <img class="hover-image" src="./src/assets/cart-hover.png" alt="cart-mobile" />
+              <span class="cart-quantity">1</span>
+            </div>
+          </a>
+        </div>
+        <div class="hover-container profile">
+          <img class="default-image" src="./src/assets/member.png" alt="profile" />
+          <img class="hover-image" src="./src/assets/member-hover.png" alt="profile" />
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="carousel-container">
+        <div class="carousel"></div>
+        <div class="carousel-text"></div>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-container"></div>
+    </div>
+    <div class="footer">
+      <div class="footer-row1">
+        <div class="footer-row1-row">
+          <ul class="footer-links">
+            <li><a href="#">關於 STYLiSH</a></li>
+            <li><a href="#">服務條款</a></li>
+            <li><a href="#">隱私政策</a></li>
+            <li><a href="#">聯絡我們</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+          <ul class="social-media">
+            <li>
+              <a href="#"><img src="./src/assets/line.png" alt="line" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./src/assets/twitter.png" alt="twitter" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./src/assets/facebook.png" alt="facebook" /></a>
+            </li>
+          </ul>
+        </div>
+        <span class="rights">© 2018. All rights reserved.</span>
+      </div>
+      <div class="footer-row2">
+        <ul class="footer-navs">
+          <li>
+            <a href="/checkout">
+              <div class="cart-icon-container">
+                <img src="./src/assets/cart-mobile.png" alt="cart-mobile" />
+                <span class="cart-quantity"></span>
+              </div>
+              <a href="/checkout">購物車</a>
+            </a>
+          </li>
+          <li><img src="./src/assets/member-mobile.png" alt="member-mobile" /><a href="#">會員</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
