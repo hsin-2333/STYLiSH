@@ -8,7 +8,7 @@ The project is deployed on Firebase. You can access the [live version](https://a
 - Checkout: Users can fill in their payment information and submit the form to complete the purchase.
 - Login: Users can log in using Facebook for profile validation.
 - Product Scroll: Infinite scrolling to load more products as the user scrolls down.
-- Get JSON from API: Fetch product data and other information from a REST API.
+- Get JSON from API: Fetch product data and other information from a RESTful API.
 - Responsive Design
   
 ## Techs
